@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>Bootstrap 101 Template</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/maizi.css" />
+
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!--小屏幕当好按钮？-->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<!--<a href="" class="navbar-brand" ><img src="img/未标题-1.jpg"/></a-->
+					<a href="" class="navbar-brand"><img src="img/未标题-1.jpg" class="nav-one" /> </a>
+					<a href="" class="navbar-brand"><img src="img/未标题-2.jpg" class="onn" /></a>
+					<a href="" class="navbar-brand">又拍云</a>
+				</div>
+
+				<!--小屏幕导航按钮和logo-->
+				<!--导航-->
+				<div class="navbar-collapse two collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#home">API</a>
+						</li>
+						<li>
+							<a href="#bbs">博客</a>
+						</li>
+						<li>
+							<a href="#html5">关于</a>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<section id="home">
+			<div class="lvjing">
+				<div class="container">
+
+					<div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<h1>BootCDN</h1>
+							<p>
+								稳定、快读、免费的前端开源项目CDN加速服务
+							</p>
+							<span>共收录了 <strong>3110</strong> 个前端开源项目</span>
+							<br />
+							<input type="text" placeholder="搜素开源库，例如：jquery" />
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row qqq">
+				<img src="img/未标题-4.jpg" style="display: block; width: 100%;" class="img-responsive	 hidden-xs" />
+			</div>
+		</section>
+
+	
+		<div class="container protocal-notice hidden-xs">
+			<div class="row">
+				<div class="col-xs-12">
+					<form class="form-inline pull-right"><label>选择协议：</label>
+						<div class="btn-group" data-toggle="buttons">
+							<label class="btn btn-default">
+								<input type="radio" name="options" id="https" checked="">https</label>
+								<label class="btn btn-default active">
+									<input type="radio" name="options" id="http">http</label>
+									<label class="btn btn-default">
+										<input type="radio" name="options" id="relative">自适应</label>
+						</div>
+						<span class="help-block">
+							<a href="http://blog.bootcdn.cn/bootcdn-support-https/" >
+								<i class="fa fa-info-circle"></i>
+							</a>
+						</span>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<main class="packages-list-container" id="all-packages">
+			<div class="container">
+				<div class="list-group packages" id="common-packages">
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">bootstrap</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">The most popular front-end framework for developing responsive, mobile first projects on the web.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star">
+								
+							</i> <img src="img/未标题-党的1.jpg"/>113596
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">react</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">React is a JavaScript library for building user interfaces.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>73134
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">vue</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Simple, Fast &amp; Composable MVVM for building interactive interfaces</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span><i class="fa fa-star">
+							
+						</i> <img src="img/未标题-党的1.jpg"/>62930
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">angular.js</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>56705
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">jquery</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">JavaScript library for DOM operations</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>45928
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">semantic-ui</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Semantic empowers designers and developers by creating a shared vocabulary for UI.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i><img src="img/未标题-党的1.jpg"/> 36509
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">socket.io</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">node.js realtime framework server</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>34905
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">redux</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Predictable state container for JavaScript apps</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>33106
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">Chart.js</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Simple HTML5 charts using the canvas element.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>31609
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">backbone.js</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Give your JS App some Backbone with Models, Views, Collections, and Events.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>26577
+						</span>
+							</div>
+						</div>
+					</a>
+					
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">foundation</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">The most advanced responsive front-end framework in the world.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i> <img src="img/未标题-党的1.jpg"/>26035
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">lodash.js</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">A utility library delivering consistency, customization, performance, &amp; extras.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star"></i><img src="img/未标题-党的1.jpg"/> 25418
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">underscore.js</h4>
+							</div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">JavaScript's functional programming helper library.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+								<span>
+							<i class="fa fa-star">
+								
+							</i> <img src="img/未标题-党的1.jpg"/>21220
+						</span>
+							</div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">echarts</h4></div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">A powerful charting and visualization library for browser</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12"><span><i class="fa fa-star"></i>  <img src="img/未标题-党的1.jpg"/>19766</span></div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">ember.js</h4></div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12"><span><i class="fa fa-star"></i>  <img src="img/未标题-党的1.jpg"/>18131</span></div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">zepto</h4></div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12"><span><i class="fa fa-star"></i>  <img src="img/未标题-党的1.jpg"/>12811</span></div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">require.js</h4></div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12"><span><i class="fa fa-star"></i>  <img src="img/未标题-党的1.jpg"/>10848</span></div>
+						</div>
+					</a>
+					<a class="package list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<h4 class="package-name">jqueryui</h4></div>
+							<div class="col-md-9 hidden-xs">
+								<p class="package-description">A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.</p>
+							</div>
+							<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12"><span><i class="fa fa-star"></i>  <img src="img/未标题-党的1.jpg"/>10073</span></div>
+						</div>
+					</a>
+					<a class="package list-group-item all-packages">所有开源项目列表</a>
+				</div>
+				<div class="list-group packages" id="search-results" style="display: none;"></div>
+			</div>
+		</main>
+		<footer class="footer hidden-print" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-about col-md-5 col-sm-12" id="about">
+						<h4>关于 BootCDN</h4>
+						<p>BootCDN 是
+							<a>Bootstrap 中文网</a>
+							和
+							<a>又拍云</a>共同支持并维护的前端开源项目免费 CDN 服务，由
+							<a>又拍云</a>
+							提供全部 CDN 支持，致力于为 Bootstrap、jQuery、Angular 一样优秀的前端开源项目提供稳定、快速的免费 CDN 加速服务。BootCDN 所收录的开源项目主要同步于
+							<a>cdnjs</a> 仓库。</p>
+						<p>自2013年10月31日上线以来已经为上万家网站提供了稳定、可靠的免费 CDN 加速服务。</p>
+						<p>反馈或建议请发送邮件至：cdn@bootcss.com</p>
+					</div>
+					<div class="footer-links col-md-2 col-sm-12">
+						<h4>友情链接</h4>
+						<ul class="list-unstyled">
+							<li>
+								<a>Bootstrap 中文网</a>
+
+							</li>
+							<li>
+								<a>Ghost 中国</a>
+							</li>
+							<li>
+								<a>Laravel 中文网</a>
+
+							</li>
+							<li>
+								<a>jQuery 中文 API</a>
+							</li>
+							<li>
+								<a>Packagist 中国镜像</a>
+							</li>
+							<li>
+								<a>Composer 中文网</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-techs col-md-2 col-sm-12">
+						<h4>我们用到的技术</h4>
+						<ul class="list-unstyled list-inline">
+							<li>
+								<a>Bootstrap</a>
+							</li>
+							<li>
+								<a>Ghost</a>
+							</li>
+							<li>
+								<a>jQuery</a>
+							</li>
+							<li>
+								<a>Babeljs</a>
+							</li>
+							<li>
+								<a>Lodash</a>
+							</li>
+							<li>
+								<a>Node</a>
+							</li>
+							<li>
+								<a>Grunt</a>
+							</li>
+							<li>
+								<a>Gulp</a>
+							</li>
+							<li>
+								<a>NPM</a>
+							</li>
+							<li>
+								<a onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-webpackjs-com'])">webpack</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-sponsors col-md-3 col-sm-12">
+						<h4>战略合作 &amp; CDN 提供</h4>
+						<p>
+							<a style="border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;">
+								<img style="width: 120px;" alt="又拍云存储" src="/assets/img/upyun.svg?1502325356044">
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="copy-right">
+				<span>© 2013-2017</span>
+				<a>京ICP备11008151号</a>
+				<span>京公网安备11010802014853</span>
+			</div>
+		</footer>
+
+		<script src="js/jQuery.1.11.2.min.js"></script>
+
+		<script src="js/bootstrap.js"></script>
+	</body>
+
+</html>
